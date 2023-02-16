@@ -1,0 +1,67 @@
+\documentclass[11pt]{article}
+\usepackage{fullpage}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{lipsum}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{hyperref}
+
+\newenvironment{myindentpar}[1]%
+{\begin{list}{}%
+         {\setlength{\leftmargin}{#1}}%
+         \item[]%
+}
+{\end{list}}
+
+\newcommand{\F}{\mathbb{F}}
+\newcommand{\np}{\mathop{\rm NP}}
+%\newcommand{\binom}[2]{{#1 \choose #2}}
+
+\newcommand{\Z}{{\mathbb Z}}
+\newcommand{\vol}{\mathop{\rm Vol}}
+\newcommand{\conp}{\mathop{\rm co-NP}}
+\newcommand{\atisp}{\mathop{\rm ATISP}}
+\renewcommand{\vec}[1]{{\mathbf #1}}
+\newcommand{\cupdot}{\mathbin{\mathaccent\cdot\cup}}
+\newcommand{\mmod}[1]{\ (\mathrm{mod}\ #1)}
+
+\setlength{\parskip}{\medskipamount}
+\setlength{\parindent}{0in}
+
+\begin{document}
+
+        \section*{Project Declaration}
+
+        \textbf{James Bardin}
+        \text{02/10/2023}
+
+\section*{Github Repository}
+
+\href{https://github.com/jamesbardin/Neuro_140_Project}{Click to go to Project Repo (Empty for now...)}
+
+\section*{Deep RL - Flappy Bird}
+
+For our project, we will use Deep Q-learning RL to play Flappy Bird. 
+
+\subsection*{Model Input and Model Output}
+
+Q-Learning is model-free. Instead, using experience from previous games, the algorithm will create a table known as the "Q-table" which will have the rewards that are expected for different actions at different states. And, we then will define a function that looks at the state, and takes the action that maximizes the reward. 
+
+\subsection*{Model Architecture}
+
+Because we will be using Q-learning, which has no model, we will instead have states. The states we will define by the distance between the bird's position and the top edge of the bottom pipe and the vertical speed of the bird. Then, we will set up our reward system so that if the bird takes a step and doesn't die, it will receive the reward. And as expected, if the bird takes a step that kills it, it will receive a penalty. 
+
+\subsection*{Other Possibility}
+
+Potentially, we could build a program that only takes in the pixels on the screen and the score. Not exactly sure how this would look at the moment, but instead of using data on the bird's position and velocity, we could use the pixels, and use the same step strategy.
+
+\subsection*{Evaluation Metric}
+
+To evaluate the success of the program, we can use the scores and compare them to average human player scores. 
+
+\end{document}

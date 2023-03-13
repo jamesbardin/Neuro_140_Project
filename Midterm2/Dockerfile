@@ -1,44 +1,44 @@
-# Start with a base image
+# start with a base image
 FROM continuumio/miniconda3
 
-# Install Microsoft Visual C++ Build Tools for Visual Studio 2017
+# install Microsoft Visual C++ Build Tools for Visual Studio 2017
 RUN conda install -y -c anaconda msvc-runtime
 
-# Install All Necessary Python Packages
+# install All Necessary Python Packages
 RUN conda create -y -n gym python=3 pip
 
-# Activate the conda environment
+# activate the conda environment
 SHELL ["conda", "run", "-n", "gym", "/bin/bash", "-c"]
 
-# Does a minimum install of OpenAI Gym
+# minimum install of OpenAI Gym
 RUN pip install gym
 
 # Install pystan; necessary to run the ToyText environments
 RUN conda install -y -c conda-forge pystan
 
-# Install Atari environments
+# install Atari environments
 RUN conda install -y -c anaconda git
 RUN pip install git+https://github.com/Kojoley/atari-py.git
 
-# Install Box2D environments
+# install Box2D environments
 RUN conda install -y -c anaconda swig
 RUN pip install Box2D
 
-# Installs the remaining OpenAI Gym environments
+# installs the remaining OpenAI Gym environments
 RUN pip install gym[all]
 
-# The last two lines are necessary to avoid some bugs that can occur with Pyglet and the Box2D environments.
+# the last two lines are necessary to avoid some bugs that can occur with Pyglet and the Box2D environments.
 RUN pip install pyglet==1.2.4
 RUN pip install gym[box2d]
 
-# Install Xming
+# install Xming
 RUN apt-get update && apt-get install -y x11-apps
 
-# Start Xming Running
+# start Xming running
 ENV DISPLAY=:0
 
-# Set the working directory
+# set the working directory
 WORKDIR /app
 
-# Start the command prompt
+# start the command prompt
 CMD ["/bin/bash"]

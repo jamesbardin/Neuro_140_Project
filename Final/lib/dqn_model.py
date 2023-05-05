@@ -1,10 +1,7 @@
 import torch
 import torch.nn as nn
+
 import numpy as np
-import random
-import torch.optim as optim
-import torch.nn.functional as f
-from collections import deque
 
 
 class DQN(nn.Module):

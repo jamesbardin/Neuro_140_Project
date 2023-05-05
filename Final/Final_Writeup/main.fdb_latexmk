@@ -1,16 +1,15 @@
 # Fdb version 4
-["bibtex main"] 1683316609 "main.aux" "main.bbl" "main" 1683316615 0
+["bibtex main"] 1683321264 "main.aux" "main.bbl" "main" 1683321475 0
   "./example.bib" 1683234082 2571 468bb707c293fcdecb60455ea84cd4af ""
-  "./main-blx.bib" 1683316613 340 6af78d801a21b99d3333870dfd6b1cef ""
+  "./main-blx.bib" 1683321474 340 6af78d801a21b99d3333870dfd6b1cef ""
   "c:/texlive/2022/texmf-dist/bibtex/bst/biblatex/biblatex.bst" 1674749728 65483 3b5a53ada692a06ce416d088de6a391b ""
-  "main.aux" 1683316613 1651 25175390e201a5aade1fcd76e3493819 "pdflatex"
+  "main.aux" 1683321473 2431 9b30854a2b0f5ffc833b6aaf0ca4362a "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1683316610 "c:/NEURO140/Final/Final_Writeup/main.tex" "main.pdf" "main" 1683316615 0
-  "bear.jpg" 1683234082 175294 2019664a9051e79de5b14c1532acd905 ""
-  "c:/NEURO140/Final/Final_Writeup/main.tex" 1683316603 17721 273dc64f7d846d00d096aafb62a01fb9 ""
+["pdflatex"] 1683321472 "c:/NEURO140/Final/Final_Writeup/main.tex" "main.pdf" "main" 1683321475 0
+  "c:/NEURO140/Final/Final_Writeup/main.tex" 1683321471 19197 da7398547919bbb5fc0b51aab7fee2cc ""
   "c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc" 1674750484 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2022/texmf-dist/fonts/enc/dvips/xcharter/xch_rydp4l.enc" 1674753832 3163 21e525d33df21a14ca1957bee2a40288 ""
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1674750828 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -160,10 +159,17 @@
   "c:/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1674754089 7877852 72791d14626c7016f92a3f3cdd7c2a4f ""
   "c:/texlive/2022/texmf.cnf" 1674753999 713 e69b156964470283e0530f5060668171 ""
   "experience_replay_pseudocode.PNG" 1683310516 10460 f2252980023e8c3b19f6173c77d0490a ""
-  "main.aux" 1683316613 1651 25175390e201a5aade1fcd76e3493819 "pdflatex"
-  "main.bbl" 1683316610 512 66cdc237e4f174d49cccf2a5e2afad50 "bibtex main"
-  "main.run.xml" 1683316613 2559 909c0cfb644a15a03fd756a5181d37b9 "pdflatex"
-  "main.tex" 1683316603 17721 273dc64f7d846d00d096aafb62a01fb9 ""
+  "main.aux" 1683321473 2431 9b30854a2b0f5ffc833b6aaf0ca4362a "pdflatex"
+  "main.bbl" 1683321265 512 66cdc237e4f174d49cccf2a5e2afad50 "bibtex main"
+  "main.run.xml" 1683321474 2559 909c0cfb644a15a03fd756a5181d37b9 "pdflatex"
+  "main.tex" 1683321471 19197 da7398547919bbb5fc0b51aab7fee2cc ""
+  "mr_sk3.png" 1683163289 21726 d488c0896861a367d0ef8c0f6762ac05 ""
+  "mr_sk4.png" 1683262540 21569 d3fc2187861f677e3b40cc93e43202ae ""
+  "mr_sk5.png" 1683149028 21269 bdbdcfee918e159cae69ba113ed06b69 ""
+  "mr_sk6.png" 1683241472 21822 e73b64b9a3327681bd544fb23e64d78d ""
+  "mr_sk7.png" 1683262602 21882 db7a079ce5f70a1754c7377ce6371fda ""
+  "mr_sk8.png" 1683262672 21009 792555284437f60dbf369f7ab9d2a233 ""
+  "mr_sk9.png" 1683301445 21552 126648887cf1429bb4cbfc3233ff02cb ""
   "structure.tex" 1683310650 6203 c566b6107573e931914bba3c83548ccd ""
   "traing_loop_pseudocode.PNG" 1683315379 16737 4bf3cf8a1ded43404c5f8554b4aae695 ""
   (generated)

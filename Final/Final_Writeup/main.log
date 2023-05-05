@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.26)  5 MAY 2023 15:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.26)  5 MAY 2023 17:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -893,17 +893,59 @@ Package pdftex.def Info: traing_loop_pseudocode.PNG  used on input line 109.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<bear.jpg, id=21, 546.3612pt x 362.7954pt>
-File: bear.jpg Graphic file (type jpg)
-<use bear.jpg>
-Package pdftex.def Info: bear.jpg  used on input line 125.
-(pdftex.def)             Requested size: 230.46733pt x 153.03178pt.
+<mr_sk3.PNG, id=21, 414.8298pt x 312.2064pt>
+File: mr_sk3.PNG Graphic file (type png)
+<use mr_sk3.PNG>
+Package pdftex.def Info: mr_sk3.PNG  used on input line 128.
+(pdftex.def)             Requested size: 230.46733pt x 173.45287pt.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 126.
+(Font)              scaled to size 10.95pt on input line 129.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
-(Font)              scaled to size 10.95pt on input line 126.
+(Font)              scaled to size 10.95pt on input line 129.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/it' will be
-(Font)              scaled to size 10.95pt on input line 126.
+(Font)              scaled to size 10.95pt on input line 129.
+
+Underfull \vbox (badness 1902) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[4 <./traing_loop_pseudocode.PNG>]
+<mr_sk4.PNG, id=32, 414.8298pt x 312.2064pt>
+File: mr_sk4.PNG Graphic file (type png)
+<use mr_sk4.PNG>
+Package pdftex.def Info: mr_sk4.PNG  used on input line 133.
+(pdftex.def)             Requested size: 230.46733pt x 173.45287pt.
+<mr_sk5.PNG, id=33, 414.8298pt x 312.2064pt>
+File: mr_sk5.PNG Graphic file (type png)
+<use mr_sk5.PNG>
+Package pdftex.def Info: mr_sk5.PNG  used on input line 138.
+(pdftex.def)             Requested size: 230.46733pt x 173.45287pt.
+<mr_sk6.PNG, id=34, 414.8298pt x 312.2064pt>
+File: mr_sk6.PNG Graphic file (type png)
+<use mr_sk6.PNG>
+Package pdftex.def Info: mr_sk6.PNG  used on input line 143.
+(pdftex.def)             Requested size: 230.46733pt x 173.45287pt.
+<mr_sk7.PNG, id=35, 414.8298pt x 312.2064pt>
+File: mr_sk7.PNG Graphic file (type png)
+<use mr_sk7.PNG>
+Package pdftex.def Info: mr_sk7.PNG  used on input line 148.
+(pdftex.def)             Requested size: 230.46733pt x 173.45287pt.
+<mr_sk8.PNG, id=36, 414.8298pt x 312.2064pt>
+File: mr_sk8.PNG Graphic file (type png)
+<use mr_sk8.PNG>
+Package pdftex.def Info: mr_sk8.PNG  used on input line 153.
+(pdftex.def)             Requested size: 230.46733pt x 173.45287pt.
+<mr_sk9.PNG, id=37, 414.8298pt x 312.2064pt>
+File: mr_sk9.PNG Graphic file (type png)
+<use mr_sk9.PNG>
+Package pdftex.def Info: mr_sk9.PNG  used on input line 158.
+(pdftex.def)             Requested size: 230.46733pt x 173.45287pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -912,7 +954,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[4 <./traing_loop_pseudocode.PNG> <./bear.jpg>]
+[5 <./mr_sk3.png> <./mr_sk4.png> <./mr_sk5.png> <./mr_sk6.png> <./mr_sk7.png> <./mr_sk8.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -920,9 +962,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[5]
+[6 <./mr_sk9.png>]
 
-LaTeX Warning: Empty bibliography on input line 152.
+LaTeX Warning: Empty bibliography on input line 184.
 
 
 AED: lastpage setting LastPage
@@ -933,7 +975,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[6
+[7
 
 ] (./main.aux)
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -941,18 +983,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19122 strings out of 476065
- 351437 string characters out of 5795020
- 1867299 words of memory out of 5000000
- 39012 multiletter control sequences out of 15000+600000
+ 19162 strings out of 476065
+ 352047 string characters out of 5795020
+ 1866299 words of memory out of 5000000
+ 39047 multiletter control sequences out of 15000+600000
  647414 words of font info for 228 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,11n,71p,1967b,1724s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/xcharter/xch_rydp4l.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/xcharter/XCharter-Bold.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/xcharter/XCharter-Italic.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/xcharter/XCharter-Roman.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on main.pdf (6 pages, 455038 bytes).
+Output written on main.pdf (7 pages, 395228 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
- 50 compressed objects within 1 object stream
+ 104 PDF objects out of 1000 (max. 8388607)
+ 54 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 54800 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 54830 words of extra memory for PDF output out of 61914 (max. 10000000)
 

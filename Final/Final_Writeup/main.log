@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.26)  5 MAY 2023 17:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.26)  5 MAY 2023 19:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -955,6 +955,37 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [5 <./mr_sk3.png> <./mr_sk4.png> <./mr_sk5.png> <./mr_sk6.png> <./mr_sk7.png> <./mr_sk8.png>]
+<tr_sk3.PNG, id=47, 414.8298pt x 312.2064pt>
+File: tr_sk3.PNG Graphic file (type png)
+<use tr_sk3.PNG>
+Package pdftex.def Info: tr_sk3.PNG  used on input line 165.
+(pdftex.def)             Requested size: 230.46733pt x 173.45287pt.
+<tr_sk4.PNG, id=48, 414.8298pt x 312.2064pt>
+File: tr_sk4.PNG Graphic file (type png)
+<use tr_sk4.PNG>
+Package pdftex.def Info: tr_sk4.PNG  used on input line 170.
+(pdftex.def)             Requested size: 230.46733pt x 173.45287pt.
+<tr_sk5.PNG, id=49, 414.8298pt x 312.2064pt>
+File: tr_sk5.PNG Graphic file (type png)
+<use tr_sk5.PNG>
+Package pdftex.def Info: tr_sk5.PNG  used on input line 175.
+(pdftex.def)             Requested size: 230.46733pt x 173.45287pt.
+<tr_sk6.PNG, id=50, 414.8298pt x 312.2064pt>
+File: tr_sk6.PNG Graphic file (type png)
+<use tr_sk6.PNG>
+Package pdftex.def Info: tr_sk6.PNG  used on input line 180.
+(pdftex.def)             Requested size: 230.46733pt x 173.45287pt.
+<tr_sk7.PNG, id=51, 414.8298pt x 312.2064pt>
+File: tr_sk7.PNG Graphic file (type png)
+<use tr_sk7.PNG>
+Package pdftex.def Info: tr_sk7.PNG  used on input line 185.
+(pdftex.def)             Requested size: 230.46733pt x 173.45287pt.
+<tr_sk8.PNG, id=52, 414.8298pt x 312.2064pt>
+File: tr_sk8.PNG Graphic file (type png)
+<use tr_sk8.PNG>
+Package pdftex.def Info: tr_sk8.PNG  used on input line 190.
+(pdftex.def)             Requested size: 230.46733pt x 173.45287pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -962,9 +993,28 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[6 <./mr_sk9.png>]
+[6 <./mr_sk9.png> <./tr_sk3.png> <./tr_sk4.png> <./tr_sk5.png> <./tr_sk6.png> <./tr_sk7.png>]
+<tr_sk9.PNG, id=62, 414.8298pt x 312.2064pt>
+File: tr_sk9.PNG Graphic file (type png)
+<use tr_sk9.PNG>
+Package pdftex.def Info: tr_sk9.PNG  used on input line 195.
+(pdftex.def)             Requested size: 230.46733pt x 173.45287pt.
+<output.PNG, id=63, 504.4446pt x 379.4175pt>
+File: output.PNG Graphic file (type png)
+<use output.PNG>
+Package pdftex.def Info: output.PNG  used on input line 204.
+(pdftex.def)             Requested size: 230.46733pt x 173.34732pt.
 
-LaTeX Warning: Empty bibliography on input line 184.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[7 <./tr_sk8.png> <./tr_sk9.png> <./output.png>]
+
+LaTeX Warning: Empty bibliography on input line 218.
 
 
 AED: lastpage setting LastPage
@@ -975,7 +1025,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[7
+[8
 
 ] (./main.aux)
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -983,18 +1033,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19162 strings out of 476065
- 352047 string characters out of 5795020
+ 19217 strings out of 476065
+ 352849 string characters out of 5795020
  1866299 words of memory out of 5000000
- 39047 multiletter control sequences out of 15000+600000
+ 39095 multiletter control sequences out of 15000+600000
  647414 words of font info for 228 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,11n,71p,1967b,1724s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/xcharter/xch_rydp4l.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/xcharter/XCharter-Bold.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/xcharter/XCharter-Italic.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/xcharter/XCharter-Roman.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on main.pdf (7 pages, 395228 bytes).
+Output written on main.pdf (8 pages, 684849 bytes).
 PDF statistics:
- 104 PDF objects out of 1000 (max. 8388607)
- 54 compressed objects within 1 object stream
+ 123 PDF objects out of 1000 (max. 8388607)
+ 56 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 54830 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 54870 words of extra memory for PDF output out of 61914 (max. 10000000)
 

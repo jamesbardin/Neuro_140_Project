@@ -6,7 +6,6 @@ import collections
 
 class FireResetEnv(gym.Wrapper):
     def __init__(self, env=None):
-        """For environments where the user need to press FIRE for the game to start."""
         super(FireResetEnv, self).__init__(env)
         assert env.unwrapped.get_action_meanings()[1] == 'FIRE'
         assert len(env.unwrapped.get_action_meanings()) >= 3
@@ -26,9 +25,7 @@ class FireResetEnv(gym.Wrapper):
 
 class MaxAndSkipEnv(gym.Wrapper):
     def __init__(self, env=None, skip=2):
-        """Return only every `skip`-th frame"""
         super(MaxAndSkipEnv, self).__init__(env)
-        # most recent raw observations (for max pooling across time steps)
         self._obs_buffer = collections.deque(maxlen=2)
         self._skip = skip
 
@@ -45,7 +42,6 @@ class MaxAndSkipEnv(gym.Wrapper):
         return max_frame, total_reward, done, info
 
     def reset(self):
-        """Clear past frame buffer and init. to first obs. from inner env."""
         self._obs_buffer.clear()
         obs = self.env.reset()
         self._obs_buffer.append(obs)

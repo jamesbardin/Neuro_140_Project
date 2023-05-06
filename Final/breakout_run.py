@@ -126,7 +126,7 @@ env.reset()
 
 # env = gym.wrappers.Monitor(env, 'C:/NEURO140/Final')
 net = dqn_model.DQN(env.observation_space.shape, env.action_space.n)
-net.load_state_dict(torch.load('C:/NEURO140/Final/BreakoutNoFrameskip-v4-best.dat', map_location=lambda storage, loc: storage))
+net.load_state_dict(torch.load('C:/NEURO140/Final/models/BreakoutNoFrameskip-v4-best.dat', map_location=lambda storage, loc: storage))
 
 state = env.reset()
 total_reward = 0.0
